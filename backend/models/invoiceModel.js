@@ -30,6 +30,8 @@ const invoiceSchema = new mongoose.Schema({
     address: { type: String, default: "" },
     phone: { type: String, default: "" },
   },
+
+  items: { type: [itemSchema], default: [] },
   currency: { type: String, default: "INR" },
   status: {
     type: String,
