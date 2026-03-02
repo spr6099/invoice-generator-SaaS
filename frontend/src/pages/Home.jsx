@@ -3,7 +3,8 @@ import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <div>
+        <div className="min-h-screen font-serif bg-white text-gray-800 antialiased">
+
       <Navbar/>
     </div>
   )
